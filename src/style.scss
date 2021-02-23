@@ -1,0 +1,56 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.main {
+    max-width: 940px;
+    margin: 0 auto;
+    padding-top: 73px;
+    padding-bottom: 30px;
+}
+.divan {
+    margin-bottom: 20px;
+    &__picture {
+        background: url("./images/divan.png");
+        width: 939px;
+        height: 228px;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        color: #000000;
+        letter-spacing: 0;
+    }
+}
+p {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.channel {
+    background: #EBF6FF;
+    padding: 15px;
+    margin-bottom: 20px;
+    &_unrelated {
+        background: #ffebec;
+    }
+    &__title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #4A4FFE;
+
+    }
+}
+a.join {
+
+    display: inline-block;
+    color: #fff;
+    box-sizing: border-box;
+    background: #3D5FDD;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 20px;
+}
